@@ -1,0 +1,155 @@
+#wrapper {
+  background-color: #587C9F;
+  background-image: linear-gradient(to bottom, #04143F, #2C0D53);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-image: url("project-images/backgroundimg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+  background-color: #04143F;
+  color: #F5F4E9;
+  height: 42px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.aboutme p {
+  text-align: center;
+  max-width: 550px;
+}
+
+nav{
+  height: 46.5px;
+  text-align: center;
+  background-color: #013871;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav li a {
+  display: inline-block;
+  color: #F5F4E9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: 48px;
+}
+
+nav a:hover {
+  background-color: #2C0D53;
+}
+
+nav a.active {
+  background-color: #2C0D53;
+  color: #EAC6E4;
+}
+
+main {
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #F5F4E9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.3%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 10px; /* if you want space between the images */
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both; /* content after the the twocontainer will be displayed withno float */
+}
+
+
+table, th, td {
+  border: 1px solid #F5F4E9;
+}
+
+object {
+  height: 700px;
+  width: 50%;
+}
+
+#resumePDF {
+  display: block;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background-color: #013871;
+}
+
+form {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 50em;
+  width: 80%;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 12em 1fr;
+}
+
+.button-container {
+  grid-column: 2;
+  display: flex;
+  flex-direction: row;
+}
+
+form input[type="submit"] {
+  width: 35%;
+  margin-right: 10px
+}
+
+form input[type="reset"] {
+  width: 45%;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #2C0D53;
+  color: #F5F4E9;
+  height: 100px;
+  text-align: center;
+}
+
+.socialMediaIconLinks a {
+  font-size: 20px;
+  margin: 0 10px 0 0;
+  text-decoration: none;
+  background-color: #04143F;
+  padding: 10px;
+  width: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
